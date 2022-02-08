@@ -1,0 +1,24 @@
+#+TITLE: Server Side Rendering Example App
+
+* Example Server side rendering
+
+* Scripts
+
+| *react:start* | Start react frontend app |
+| *react:build* | Build react frontend app |
+| *react:test* | Test react frontend app |
+| *react:eject* | Test react frontend app |
+| *build* Build s |erver with webpack |
+| *start* Build s |erver and start server |
+
+Only `build` script is required to start server and serve client
+
+* Routes
+
+| `/`    | Serve app with data loaded from server               |
+| `/app` | Serve app with data loaded using useEffect on client |
+| `/list` | Get a json response to load data in react           |
+
+For information about how to use useEffect in server side rendering
+[[https://medium.com/swlh/how-to-use-useeffect-on-server-side-654932c51b13][How to use useEffect on server-side?]]
+
